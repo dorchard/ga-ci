@@ -1,6 +1,7 @@
 name: Binary search - Typecheck (Mypy)
 
 on:
+  push: {}
   workflow_dispatch: {}
 
 jobs:
