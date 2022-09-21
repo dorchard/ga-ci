@@ -2,8 +2,9 @@
 import math
 from typing import Optional
 
+   
 def foo(x: string):
-    return x+1
+    return x-1
 
 def binary_search(l: list[int], x: int) -> Optional[int]:
     return binary_search_inner(l, x, 0, len(l) - 1)
