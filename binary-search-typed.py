@@ -2,7 +2,7 @@
 import math
 from typing import Optional
 
-def foo(x: int):
+def foo(x: string):
     return x+1
 
 def binary_search(l: list[int], x: int) -> Optional[int]:
