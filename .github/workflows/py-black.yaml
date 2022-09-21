@@ -1,7 +1,9 @@
 name: Binary search - Formatting (black)
 
 on:
-  push: {}
+  push: 
+    branches:
+      - main
   workflow_dispatch: {}
 
 jobs:
