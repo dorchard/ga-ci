@@ -20,7 +20,7 @@ def binary_search_inner(l: list[int], x: int, idx_left: int, idx_right: int) -> 
         if x < l[idx]:
             return binary_search_inner(l, x, idx_left, idx-1)
         elif x > l[idx]:
-            return binary_search_inner(l, x, idx+1, idx_right)
+            return binary_search_inner(l, x, foo(idx), idx_right)
         else: # must be equal
             return idx
 
